@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    {{>links}}
+  </head>
+  <body>
+    {{>navbar}}
+    <!-- main header -->
+    <div class="container-fluid main_header">
+      <div class="row">
+        <div class="col-md-10 col-12 mx-auto">
+          <div class="row">
+            <!-- left side div -->
+            <div class="col-md-6 col-12 main_header_right align-items-center">
+              <figure>
+                <img
+                  src="image/about.jpg"
+                  alt="shivam"width="400" height="400"
+                  class="img-fluid"
+                  title="Shivam Pathk"
+                />
+              </figure>
+            </div>
+            <div class="col-md-6 col-12 main_header_left">
+              <p>Hii There</p>
+              <h1>
+                My name is <span class="text_clr">Shivam Pathak</span> <br>and I am a <span class="text_clr">Backend Developer</br></span>
+              <a href="https://www.linkedin.com/in/shivam-kumar-pathak/"><button>linkedin</button></a>
+              <a href="https://www.instagram.com/shivpathk/"><button>Instagram</button></a>
+              <a href="https://twitter.com/shivpathk"><button>Twitter</button></a>
+              <a href="https://github.com/shivpathk"><button>Github</button></a>
+            </div>
+            <!-- right side div -->
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- footer code -->
+    {{>footer}}
+  </body>
+</html>
